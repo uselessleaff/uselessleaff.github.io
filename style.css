@@ -7,16 +7,34 @@
     font-family: 'Outfit';
 }
 
-.header{
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.png);
+}
+
+.header {
     width: 100%;
     min-height: 100vh;
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center;
     position: relative;
 }
 
-.sidebar{
+.content {
+    padding: 50px;
+    margin-left: 10%;
+  }
+
+  .content img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .content h1 {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+.sidebar {
     position: absolute;
     top: 0;
     right: 0;
@@ -26,14 +44,14 @@
     text-align: center;
 }
 
-.sidebar img{
+.sidebar img {
     width: 30px;
     display: block;
     margin: 50px auto 20px;
     cursor: pointer;
 }
 
-.socials{
+.socials {
     width: 100%;
     height: 50%;
     background: rgba(81, 176, 113, 0.8);
@@ -46,8 +64,31 @@
     padding-bottom: 30px;
 }
 
-.socials img{
+.socials img {
     width: 30px;
     margin: 15px;
+}
+
+.logo {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.navigation {
+    font-size: 50px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid  rgba(81, 176, 113, 1);
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
