@@ -7,6 +7,10 @@
     font-family: 'Outfit';
 }
 
+a {
+    color: rgb(146, 233, 175);
+}
+
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.png);
 }
@@ -30,6 +34,7 @@ body {
   }
 
   .content h1 {
+    width: 300px;
     color: white;
     display: inline-block;
     vertical-align: middle;
